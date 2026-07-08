@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+.next/
+out/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# local generated/uploaded files
+backend/uploads/
+backend/generated_images/
+
+# logs
+*.log
+
+# OS/editor
+.DS_Store
+.vscode/
+
+The most successful branding campai.txt
+
+Braind Overview.docx
+Braind Overview.pdf
+samples.docx
