@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from pathlib import Path
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.db_test import router as db_test_router
 from app.api.uploads import router as uploads_router
@@ -11,6 +12,11 @@ app = FastAPI(
     description="Backend API for Braind, a multimodal AI campaign generation and evaluation platform.",
     version="0.1.0",
 )
+
+
+Path("uploads").mkdir(parents=True, exist_ok=True)
+Path("generated_images").mkdir(parents=True, exist_ok=True)
+
 
 app.mount(
     "/generated-images",
