@@ -6,8 +6,6 @@ The most successful branding campaigns share a few common traits: a clear core m
 
 ## Live Demo
 Live Demo: https://braind-six.vercel.app
-Frontend: https://braind-six.vercel.app  
-Backend: https://braind.onrender.com
 
 ## What Braind Does
 
